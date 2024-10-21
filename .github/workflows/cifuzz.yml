@@ -20,6 +20,7 @@ on:
   push:
     branches:
       - main
+      - tests
 jobs:
   Fuzzing:
     # FIXME: Figure out why 32-bit applications fail to run in docker on Ubuntu 24.04.

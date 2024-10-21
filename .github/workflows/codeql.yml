@@ -18,6 +18,7 @@ on:
   push:
     branches:
       - main
+      - tests
       - v[0-9]+-stable
 
 permissions:
